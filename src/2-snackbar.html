@@ -7,7 +7,30 @@
     <title>Task 2</title>
 </head>
 <body>
-    
+    <div class="con">
+    <form class="form">
+        <label>
+          Delay (ms)
+          <input class="inp2" type="number" name="delay" required />
+        </label>
+      
+        <fieldset class="radioFildset">
+          <legend>State</legend>
+          <div class="radio">
+          <label class="radio-label">
+            <input class="inp-radio" type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label class="radio-label">
+            <input class="inp-radio" type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </div>
+        </fieldset>
+      
+        <button class="btn" type="submit">Create notification</button>
+      </form>      
+    </div>
     <script type="module" src="./js/2-snackbar.js"></script>
 </body>
 </html>

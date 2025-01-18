@@ -142,3 +142,111 @@ input{
     line-height: 1.5;
     color: #2e2f42;
 }
+
+.labIn{
+    width: 360px;
+    height: auto;
+}
+
+.con{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+label{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.inp2, fieldset {
+    box-sizing: border-box;
+}
+
+.inp2{
+    border: 1px solid #808080;
+    border-radius: 5px;
+    height: 40px;
+    width: 360px;
+}
+
+.inp2:hover{
+    border-color: #2E2F42;
+}
+
+.inp2:focus{
+    border: 3px solid #4E75FF;
+}
+
+.radioFildset{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    min-height: 64px;
+    width: 360px;
+}
+
+fieldset:hover, fieldset:focus{
+    border-color: #000000;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row; 
+    gap: 24px;
+    align-items: center;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    gap: 8px; 
+    white-space: nowrap; 
+    width: 104px;
+}
+
+.inp-radio{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #6C8CFF;
+}
